@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+}
+h1 {
+    text-align: center;
+}
+.booking {
+    min-height: 80vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    padding-bottom: 10px;
+}
+
+
+.booking  .flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.7rem;
+    
+}
+.booking  .flex .inputBox {
+    flex: 0 0 40rem;
+    width: 100%;
+    padding: 0px;
+    font-size: 17px;
+    margin: px 0;
+    background: #eee;
+    border-radius: 5px;
+    margin-left: 100px;
+   
+}
+.booking  .flex .inputBox input {
+    width: 100%;
+    padding: 5px;
+    font-size: 15px;
+    margin: 8px 0;
+    background: #eee;
+    border-radius: 5px;
+    text-transform: none;
+    margin-top: 1rem;
+    color: black;
+}
+.booking  .flex .inputBox input:focus::placeholder {
+    background: black;
+    color: whitesmoke;
+}
+.booking  .flex .inputBox input:focus {
+   color: white ; 
+}
+.booking .flex .inputBox span {
+    font-size: 1.5rem;
+    color: black;
+}
+.booking  .btn {
+    margin-top: 2rem;
+    background: rgb(0, 0, 5);
+    padding: 10px 20px;
+    border: solid;
+    color: aliceblue;
+    align-items: center;
+}
+.booking  .btn:hover {
+background: gray;
+color: black;
+}

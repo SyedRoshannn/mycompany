@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental Website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><img src="car4.jpg" alt="CruiseFleet Rentals"></a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#ride">Ride</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+        </ul>
+        <div class="header-btn">
+            <li><a class="button" href="signin.HTML">Sign In</a></li>
+            </div>
+            <li><a class="button" href="signup.HTML">Sign Up</a></li>
+            <li><a class="button" href="admin.HTML">Admin</a></li>
+            <li><a class="button" href="logout.HTML">Log Out</a></li>
+        </div>    
+    </header>
+    <section class="home" id="home">
+        <div class="text">
+            <h1><span>Looking</span> to<br> rent a car??</h1>
+            <p><B>CruiseFleet Rentals is your premier destination for hassle-free and convenient car rental services.</br> With a commitment to providing top-notch vehicles and exceptional customer service,<br> we make sure your journey is as smooth as the open road.</B></p>
+            <div class="app-stores" >
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Download_on_the_App_Store_Badge.svg/203px-Download_on_the_App_Store_Badge.svg.png?20170219160111" alt="App Store">
+                <img src="https://freelogopng.com/images/all_img/1664287128google-play-store-logo-png.png" width="180" height="60" alt="Google Play">
+            </div>
+        </div>
+        <div class="form-container">
+            <form action="search.php">
+                <div class="input-box">
+                    <label for="location">Location</label>
+                    <input type="search" id="Location" name="location" placeholder="Search places">
+                </div>
+                <div class="input-box">
+                    <label for="Pick-up date">Pick-up date</label>
+                    <input type="date" id="Pick-up date" name="pickup">
+                </div>
+                <div class="input-box">
+                    <label for="Return Date">Return Date</label>
+                    <input type="date" id="Return Date" name="return">
+                </div>
+                <input type="submit" class="btn" value="rental form?" name="submit">
+            </form>
+        </div>
+    </section>
+    <section class="ride" id="ride">
+        <div class="heading">
+            <h3>How cruisefleet works</h3>
+            <h1>Rent With 3 Easy Steps</h1>
+        </div>
+        <div class="ride-container">
+            <div class="box">
+                <i class='bx bxs-map'></i>
+                <h2><b> choose a location</b></h2>
+                <p>choose a location from where you want the car and your destination where you wnat to go then select the car from our service which ever you need</p>
+            </div>
+            <div class="box">
+                <i class='bx bx-calendar-check'></i>
+                <h2><b>pick-up date</b></h2>
+                <p>give us the date on which you want to pick-up yhe car and also the return date these all information cutomer should fill in the above form in home section</p>
+            </div>
+            <div class="box">
+                <i class='bx bxs-calendar-star' ></i>
+                <h2><b>book a car</b></h2>
+                <p>give your documents at the time of pick-up and after verification payment process and then you can take the car.</p>
+            </div>
+        </div>
+       </section>
+       <section class="services" id="services">
+        <div class="heading">
+            <h3>Best Services</h3>
+            <h1>Explore out top Deals <br> Fom Rated Dealers</h1>
+            </div>
+            <div class="services-container">
+                <div class="box">
+                    <div class="box-img">
+                        <img src="https://media.istockphoto.com/id/1340269597/photo/classic-vintage-muscle-car.jpg?s=612x612&w=is&k=20&c=KSm7mm02eA9w-Tea3lL1FVphub3FsYXz4fbhC5tOc8k=" alt="mustang" >
+                    </div>
+                    <p>2017</p>
+                    <h3>1989 mustang</h3>
+                    <h2>$15000 <span>/month</span></h2>    
+                    <a class="btn" href="signin.php">Rent Now</a>
+                </div>
+                <div class="box">
+                    <div class="box-img">
+                        <img src="https://www.topgear.com/sites/default/files/news-listicle/image/2021/12/18.%20Koenigsegg%20Jesko.jpg?w=848&h=477" alt="pinifarina battista">
+                    </div>
+                    <p>2023</p>
+                    <h3>2021  piniferina battista</h3>
+                    <h2>$58500 | $358 <span>/month</span></h2>
+                    <a class="btn" href="rent.php">Rent Now</a>
+                </div>
+                <div class="box">
+                    <div class="box-img">
+                        <img src="https://pbs.twimg.com/media/E2TSUHKXsAAMfKM?format=jpg&name=large" alt="astin martin" >
+                    </div>
+                    <p>2023</p>
+                    <h3>2012 Astin Martin</h3>
+                    <h2>$58500 | $358 <span>/month</span></h2>
+                    <a class="btn" href="rent.php">Rent Now</a>
+                </div>
+                <div class="box">
+                    <div class="box-img">
+                        <img src="https://wallpapers.com/images/featured-full/mercedes-benz-car-ny0t9dy51koviur4.jpg" alt="benz">
+                    </div>
+                    <p>2023</p>
+                    <h3>2020 Mercedes Benz</h3>
+                    <h2>$58500 | $358 <span>/month</span></h2>
+                    <a class="btn" href="rent.php">Rent Now</a>
+                </div>
+                <div class="box">
+                    <div class="box-img">
+                        <img src="https://4kwallpapers.com/images/walls/thumbs_2t/6842.jpg" alt="rollsroys" >
+                    </div>
+                    <p>2023</p>
+                    <h3>2021 Rolls Roys Ghost</h3>
+                    <h2>$58500 | $358 <span>/month</span></h2>
+                    <a class="btn" href="rent.php">Rent Now</a>
+                </div>
+                <div class="box">
+                    <div class="box-img">
+                        <img src="https://e1.pxfuel.com/desktop-wallpaper/642/315/desktop-wallpaper-pin-on-modified-cars-black-endeavour.jpg" alt="endover" >
+                    </div>
+                    <p>2023</p>
+                    <h3>2019 Ford Endover</h3>
+                    <h2>$58500 | $358 <span>/month</span></h2>
+                    <a class="btn" href="rent.php">Rent Now</a>
+                </div>
+                <div class="box">
+                    <div class="box-img">
+                        <img src="https://wallpapers.com/images/high/black-jeep-wrangler-custom-painted-mrjkjvvxl0w7ur3b.webp" alt="wrangler" >
+                    </div>
+                    <p>2023</p>
+                    <h3>2020 Wrangler</h3>
+                    <h2>$58500 | $358 <span>/month</span></h2>
+                    <a class="btn" href="rent.php">Rent Now</a>
+                </div>
+                <div class="box">
+                    <div class="box-img">
+                        <img src="https://e0.pxfuel.com/wallpapers/860/947/desktop-wallpaper-toyota-camry-xse-and.jpg" alt="camri">
+                    </div>
+                    <p>2023</p>
+                    <h3>2023 Toyota Camri</h3>
+                    <h2>$58500 | $358 <span>/month</span></h2>
+                    <a class="btn" href="rent.php">Rent Now</a>
+                </div> 
+            </div>
+       </section>
+       <section class="about" id="about">
+        <div class="heading">
+            <h2>About Us</h2>
+            <h1>Best Customer Experience</h1>
+        </div>
+        <div class="about-container">
+            <div class="about-img">
+                <img src="https://wallpapercave.com/wp/wp2644234.jpg" alt="cars">
+            </div>
+            <div class="about-text">
+                <span><b>about us</b></span>
+                <p>At CruiseFleet rentals, we believe that the journey is just as important as the destination. Established in 2023, we have been providing exceptional car rental services to our valued customers . As a trusted name in the industry, we take pride in offering a seamless and memorable car rental experience.</p>
+                <p>At CruiseFleet, we are committed to reducing our environmental impact. We take steps to minimize our carbon footprint by maintaining fuel-efficient vehicles and implementing eco-friendly practices in our operations.</p>
+                <a href="learnmore.html" class="btn">Learn more</a>
+            </div>
+        </div>
+       </section>
+      <section class="reviews" id="reviews">
+        <div class="heading">
+            <h2>Reviews</h2>
+            <h1>What CruiseFleet Customer say</h1>
+        </div>
+        <div class="reviews-container">
+            <div class="box">
+                <div class="rev-img">
+                    <img src="https://static01.nyt.com/images/2022/12/12/multimedia/00twitter-legal-musk-1-afec/00twitter-legal-musk-1-afec-facebookJumbo.jpg" alt="elon">
+                </div>
+                <h2>Elon Musk</h2>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+                <p> I had a fantastic experience renting a car from this company. The process was smooth and quick, the car was clean and well-maintained, and the staff was incredibly helpful and friendly. I'll definitely be renting from them again in the future.</p>
+            </div>
+            <div class="box">
+                <div class="rev-img">
+                    <img src="ROSHAN.jpg" alt="ashraf">
+                </div>
+                <h2>SYED ROSHAN</h2>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+                <p> Overall, a good rental experience. The car was in decent condition, and the pricing was competitive. However, it took a bit longer than expected to pick up the car due to a long line at the counter. Still, I would recommend this company for their reasonable rates.</p>
+            </div>
+            <div class="box">
+                <div class="rev-img">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Andrew_Tate_-_James_Tamim_Upload_%28Cropped_Wide_Portrait%29.png/640px-Andrew_Tate_-_James_Tamim_Upload_%28Cropped_Wide_Portrait%29.png" alt="tate">
+                </div>
+                <h2>Andrew Tate</h2>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+                <p> Decent car rental service, but the additional fees and charges added up quickly, making the final price higher than expected. Make sure to read the fine print and be aware of all the extra costs before booking.</p>
+            </div>
+        </div>
+      </section>
+      <section class="newsletter">
+        <h2>Subscribe To Newsletter</h2>
+        <div class="box">
+            <input type="text" placeholder="Enter your Email.....">
+            <a href="subscribe.php" class="btn">Subscribe?</a>
+        </div>
+      </section>
+      <div class="copyright">
+        <p>&#169; CruiseFleet All Right Reserved</p>
+        <div class="social">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-twitter' ></i></a>
+            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+            <a href="#"><i class='bx bxs-contact'></i>7204831502</a>
+        </div>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/scrollreveal@4.3.5/dist/scrollreveal.min.js"></script>
+      <script>
+        // Initialize ScrollReveal with default configuration
+        document.addEventListener('DOMContentLoaded', function() {
+          if (typeof ScrollReveal !== 'undefined') {
+            ScrollReveal().reveal('section, .box, .models-container, .about, .reviews-container', {
+              delay: 200,
+              distance: '50px',
+              duration: 1000,
+              easing: 'cubic-bezier(0.5, 0, 0, 1)',
+              interval: 200
+            });
+          }
+        });
+      </script>
+      <script src="main.js"></script>
+    </body>
+</html>

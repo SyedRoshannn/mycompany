@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Fixed typo: 'borderr-box' to 'border-box' */
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+}
+.newsletter {
+    background: linear-gradient(to top right,  #070100,  #828180);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+}
+
+.newsletter h2 {
+    color: #fff;
+    font-size: 1.8rem;
+}
+
+.newsletter .box {
+    margin-top: 1rem;
+    background: #fff;
+    border-radius: 0.5rem;
+    padding: 4px 10px;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.newsletter .box input {
+    border: none;
+    outline: none;
+}
+
+.newsletter  .btn {
+    background: red;
+    color: rgb(243, 238, 238);
+    padding: 8px 20px;
+    border-radius: 0.5rem;
+}
+
+.newsletter .btn:hover {
+    background: lightgray;
+}
